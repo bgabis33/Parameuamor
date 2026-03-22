@@ -1,63 +1,38 @@
-body{
-        margin:0
-                padding:10px
-        background-color: rgba(255, 182, 193, 0.3);
-    }
-    header{
-        background-image: url(imagens/cute2.jpg);
-        backgraund-size:cover
-            backgraung-position:center
-        heigth: 300px;
-    }
-   
 
-     .hero{
-       
-        text-align: center;
-        font-size: 18px;
-        font-family: sans-serif;
-             padding:15px;
-    }
-    .overflow{
-        
-        text-align: center;
-        font-family: sans-serif;
-        background-color: rgba(255, 182, 193, 0.5);
-            padding:15px;
-            border-radius:15px;
-            margin:10px
-h3{
-            color:blue;
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
 
-            text-align: center;
-    }
-    a{
-        font-size: 21px;
-        position: fixed;
-        top: 500px;
-right: 2px;
-        background-color: rgba(255, 182, 193, 0.5);
-        
+/* TEXTO FINAL */
+.text {
+  background: white;
+  margin: 15px;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+}
 
-    }
-    #text{
-        background-color: powderblue;
-        font-size: 35px;
-        background-color: powederblue;
-    }
-    
-    .container{
-        display: flex;
-        
-    }
-    img{
-            max-width:100%
-                    weigth:auto
-border-radius:10px
+.text a {
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  background: #ff4d88;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
 
-margin: 10px;
-        
-    }
+/* RODAPÉ */
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #ffccd5;
+}
 
-
-    
+/* CELULAR */
+@media (max-width: 600px) {
+  .hero {
+    height: 200px;
+  }
+}
