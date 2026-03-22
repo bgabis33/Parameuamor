@@ -22,11 +22,8 @@ body{
         font-family: sans-serif;
         background-color: rgba(255, 182, 193, 0.5);
     }
-    .over2{
-        
-        border: solid pink 5px;
-        background-color: palegoldenrod;
-        width: fit-content;
+    h3{
+            color:powederblue;
     }
     p{
         font-size: 40px;
