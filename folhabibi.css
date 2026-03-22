@@ -1,26 +1,31 @@
 body{
+        margin:0
+                padding:10px
         background-color: rgba(255, 182, 193, 0.3);
     }
     header{
         background-image: url(imagens/cute2.jpg);
-        height: 100%;
-        padding-top: 1px;
+        backgraund-size:cover
+            backgraung-position:center
+        heigth: 300px;
     }
    
 
      .hero{
-        position: sticky;
-        bottom: 0px;
-        top: 0px;
+       
         text-align: center;
-        font-size: 20px;
+        font-size: 18px;
         font-family: sans-serif;
+             padding:15px;
     }
     .overflow{
         
         text-align: center;
         font-family: sans-serif;
         background-color: rgba(255, 182, 193, 0.5);
+            padding:15px;
+            border-radius:15px;
+            margin:10px
 h3{
             color:blue;
 
@@ -46,8 +51,12 @@ right: 2px;
         
     }
     img{
-margin-right: 20px;
-        width: 200px;
+            max-width:100%
+                    weigth:auto
+border-radius:10px
+
+margin: 10px;
+        
     }
 footer{
         backgraund-color: powederblue;
