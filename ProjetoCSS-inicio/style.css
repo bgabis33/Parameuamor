@@ -1,0 +1,41 @@
+body{
+        background-color: rgba(255, 182, 193, 0.3);
+    }
+    header{
+        background-image: url(imagens/cute2.jpg);
+        height: 100%;
+        padding-top: 1px;
+    }
+   
+
+     .hero{
+        position: sticky;
+        bottom: 0px;
+        top: 0px;
+        text-align: center;
+        font-size: 20px;
+        font-family: sans-serif;
+    }
+    .overflow{
+        
+        text-align: center;
+        font-family: sans-serif;
+        background-color: rgba(255, 182, 193, 0.5);
+    }
+    
+    .container{
+        display: flex;
+        
+    }
+    img{
+margin-right: 20px;
+        width: 200px;
+    }
+footer{
+        background-color: rgba(255, 182, 193, 0.5);
+        text-align: center;
+        font-family: sans-serif;
+        padding:5px;
+
+
+    
