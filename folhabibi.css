@@ -21,15 +21,26 @@ body{
         text-align: center;
         font-family: sans-serif;
         background-color: rgba(255, 182, 193, 0.5);
+h3{
+            color:blue;
+
+            text-align: center;
     }
-    h3{
-            color:powerderblue;
-            text-aling:center;
+    a{
+        font-size: 21px;
+        position: fixed;
+        top: 500px;
+right: 2px;
+        background-color: rgba(255, 182, 193, 0.5);
+        
+
     }
-    p{
+    #text{
+        background-color: powderblue;
         font-size: 35px;
         background-color: powederblue;
     }
+    
     .container{
         display: flex;
         
@@ -43,5 +54,12 @@ footer{
         text-aling: center;
         padding:10px;
 }
+      footer{
+        background-color: rgba(255, 182, 193, 0.5);
+        text-align: center;
+        font-family: sans-serif;
+        padding:5px;
+      }
+      
 
     
